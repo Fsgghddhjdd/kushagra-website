@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<h1><b>TUTORIAL 1</b></h1>
+
+<body>
+    <ul>
+        <li>BEVRAGES</li>
+        <ul>
+            <li>Milk</li>
+            <li>cofee</li>
+            <li>Tea</li>
+        </ul>
+    </ul>
+    <ol>
+        <li>BEVRAGES</li>
+        <ol>
+            <li>Milk</li>
+            <li>cofee</li>
+            <li>Tea</li>
+        </ol>
+    </ol>
+    <dl>
+        <dt>bevrages</dt>
+        <dd>Milk</dd>
+        <dd>cofee</dd>
+        <dd>Tea</dd>
+    </dl>
+    <table  class="table" border="1" cellspacing="0" style="width: 30%">
+        <tr>
+            <td align="center">Company</td>
+            <td>Contact</td>
+            <td>Country</td>
+        </tr>
+    </table>
+    <table class="table" border="1" cellspacing='0'> 
+        <tr> 
+            <th>Time</th> 
+            <th>Monday</th> 
+            <th>Teusday</th> 
+            <th>Wednesday</th> 
+            <th>Thursday</th> 
+            <th>Friday</th> 
+            <th>Saturday</th> 
+        </tr> 
+        <tr> 
+            <td>7.00 am to 8.00 am</td> 
+            <td rowspan='2'>OS (PRACT)</td> 
+            <td></td> 
+            <td>VSC</td> 
+            <td></td> 
+            <td ROWSPAN='2'>WP(PRACT)</td> 
+            <td>NM</td> 
+        </tr> 
+        <tr> 
+            <td>8.00 am to 9.00 am</td> 
+            <td>VEC</td> 
+            <td>VSC</td> 
+            <td>WP</td> 
+            <td>NM</td> 
+        </tr> 
+        <tr> 
+            <td>9.00 am to 9.3.10 am</td> 
+            <td colspan='6'>RECESS</td> 
+        </tr> 
+        <tr> 
+            <td>9.30 am to 10.30 am</td> 
+            <td>VEC</td> 
+            <td>OS</td> 
+            <td>AEC</td> 
+            <td>OS</td> 
+            <td>WP</td> 
+            <td>OE2</td> 
+        </tr> 
+        <tr> 
+             <td>10.30 am to 11.30 am</td> 
+            <td>OE1</td> 
+            <td>OE1</td> 
+            <td></td> 
+            <td>AEC</td> 
+            <td></td> 
+            <td>OE2</td> 
+        </tr> 
+        <tr> 
+            <td>11.30 am to 12.00 am</td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+        </tr>
+        <br><br>
+    <form action="/practice.php">
+        <table border="1" cellspacing="0">
+            <caption><b>Student login form</b></caption>
+            <tr>
+                <td>ENTER NAME :</td>
+                <td><input type="text" name="studentname" size="10" maxlength="10" placeholder="enter name"</td>
+            </tr>
+            <tr>
+                <td>email :</td>
+                <td><input type="text" name="email" size="10" maxlength="10" placeholder="email"</td>
+            </tr>
+            <tr>
+                <td>password :</td>
+                <td><input type="password" name="password" placeholder="pwd" size="6" maxlength="6" </td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date" name="date" placeholder="date"</td>
+            </tr>
+            <tr>
+                <td>Subject:</td>
+                <td> MATHS<input type="CHECKBOX" name="MATHS">
+                     ELECTRONICS<input type="CHECKBOX" name="ELECTONICS"></td>
+            </tr>
+            <tr>
+                <td>class :</td>
+                <td>FYBSCIT<input type="radio" name="class">
+                    SYBSCIT<input type="radio" name="class">
+                    TYBSCIT<input type="radio" name="class"></td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td><select size="1">
+                    <option>mumbai</option>
+                    <option>pune</option>
+                    <option>karnataka</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"</td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+
+</html>
